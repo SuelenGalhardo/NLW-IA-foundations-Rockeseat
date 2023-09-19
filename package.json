@@ -1,17 +1,12 @@
 {
   "name": "nlwia",
-  "homepage": "./",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "web": "vite",
-    "server": "env YTDL_NO_UPDATE=1 node --watch server/index.js",
-    "build": "vite build",
-    "preview": "vite preview",
-    "dev": "vite",
-    "deploy": "gh-pages -d dist"
-    
+    "server": "env YTDL_NO_UPDATE=1 node --watch server/index.js"
+
   },
   "devDependencies": {
     "vite": "^4.4.5"
